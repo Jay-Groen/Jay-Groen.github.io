@@ -1,15 +1,140 @@
 <!DOCTYPE html>
 <html>
+<style>
+    ul.bg-black {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgba(0, 0, 0, 0.836);
+    }
+
+    ul.bg-black>li {
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        background-color: rgb(131, 131, 131);
+    }
+
+    .sticky {
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        left: 0px;
+    }
+
+    .main {
+        padding-top: 50px;
+    }
+</style>
+
 <head>
-    <title> dashboard</title>
+    <title>Dashboard</title>
 </head>
 
 <body>
-    <p>
-    <nav>
-        <a href="http://localhost/"> home</a>
-    </nav>
-    <h1> Dashboard</h1>
-    </p>
+
+    <div>
+        <nav>
+            <ul class="sticky bg-black">
+                <li> </li>
+                <li>  </li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </nav>
+    </div>
+
+    <main>
+        <p>
+            .
+        </p>
+        <div>
+            <table border="">
+                <tr>
+                    <th>Quartile</th>
+                    <th>Course</th>
+                    <th>Ec</th>
+                    <th>Exam</th>
+                    <th>Grade</th>
+                </tr>
+                <tr>
+                    <td rowspan="3">1</td>
+                    <td>Programme and Career Orientation</td>
+                    <td>2,5</td>
+                    <td>Assesment</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Computer Science Basics</td>
+                    <td>7,5</td>
+                    <td>Written</td>
+                    <td>0</td>
+                </tr>
+                <td> Programming basics</td>
+                <td>5</td>
+                <td>Cae study</td>
+                <td>0</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">2</td>
+                    <td rowspan="2">Object Oriented Programming</td>
+                    <td rowspan="2">10</td>
+                    <td>Case study</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>project</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td rowspan="4">3</td>
+                    <td>Framework Devolopment 1</td>
+                    <td>5</td>
+                    <td>Case study</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">FRamework Porject 1</td>
+                    <td rowspan="3">7,5</td>
+                    <td>project</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Assesment</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>report</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">4</td>
+                    <td rowspan="3">Framework Project 2</td>
+                    <td rowspan="3">10</td>
+                    <td>portfolio</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Project</td>
+                    <td>0</td>
+                <tr>
+                    <td>AssesmentS</td>
+                    <td>0</td>
+                </tr>
+            </table>
+        </div>
+    </main>
 </body>
+
 </html>
