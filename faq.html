@@ -8,7 +8,7 @@
 
     body {
         background-image: url(/img/background_foto_11.jpg);
-        background-size: 700px;
+        background-size: 100%;
     }
 
     .navbar {
@@ -17,7 +17,7 @@
         padding: 0;
         overflow: hidden;
         background: linear-gradient(90deg, lightblue, pink);
-        border: black solid;
+        box-shadow: 2px 2px 10px rgb(0, 0, 0);
     }
 
     .navbar li {
@@ -47,16 +47,15 @@
     }
 
     h1 {
-        margin-top: 80px;
+        margin-top: 10%;
         text-shadow: 2px 2px 10px rgb(255, 255, 255);
     }
 
     .questions {
         background: linear-gradient(90deg, lightblue, pink);
-        border-width: 3px;
-        border-style: solid;
+        box-shadow: 2px 2px 10px rgb(0, 0, 0);
         padding: 30px;
-        margin-right: 500px;
+        margin-right: 40%;
         font-family: monospace;
         font-size: 15px;
     }
@@ -67,10 +66,9 @@
 
     .answers {
         background: linear-gradient(90deg, lightblue, pink);
-        border-width: 3px;
-        border-style: solid;
+        box-shadow: 2px 2px 10px rgb(0, 0, 0);
         padding: 30px;
-        margin-right: 500px;
+        margin-right: 40%;
         font-family: monospace;
         font-size: 15px;
     }
@@ -88,7 +86,7 @@
                 <li> <a href="http://localhost/profile.html"> Profile</a> </li>
                 <li><a href="http://localhost/dashboard.html"> Dashboard</a></li>
                 <li> <a href="http://localhost/faq.html"> FAQ</a></li>
-                <li><a href="http://localhost/postfeed.html"> Postfeed</a></li>
+                <li><a href="http://localhost/postfeed.html"> Blog</a></li>
             </ul>
         </nav>
     </div>
@@ -104,11 +102,11 @@
         <h1> Frequently asked questions </h1>
         <p>
         <ol class="questions">
-            <li>How can you print a document from your laptop at HZ?</li>
-            <li>How can you scan a document a send it to your laptop at HZ?</li>
-            <li>What do you need to do when you are sick / show symptoms of coronavirus?</li>
-            <li>How can you book a project space in one of the wings?</li>
-            <li>What are the instructions if you want to park your car at the HZ parking lot?</li>
+            <li>Hoe print je een document vanaf je laptop op HZ?</li>
+            <li>Hoe scan je een document en stuur je het naar je eigen laptop?</li>
+            <li>Wat moet je doen wanneer je ziek of symptonen van het corona-virus toont?</li>
+            <li>Hoe reserveer je een projectruimte?</li>
+            <li>Waar kan de auto worden geparkeerd bij het HZ gebouw?</li>
         </ol>
         </p>
         <div>
@@ -116,26 +114,63 @@
             <ol class="answers">
                 <li>
                     <ul>
-                        <li> Go to the website <a href="https://print.hz.nl/login.cfm?dest=index.cfm&"> print.hz.nl</a>.
+                        <li> Ga naar de website <a href="https://print.hz.nl/login.cfm?dest=index.cfm&">
+                                print.hz.nl</a>.
                         </li>
-                        <li> Enter your HZ username and password and Login.</li>
-                        <li> Click on Choose File and select the file to print.</li>
-                        <li> Click on Next. Repeat the previous step if you want to add more documents.</li>
-                        <li> Wait until the document has been processed and then click on the Advanced option to state
-                            whether you want double-sided or black & white printing.</li>
-                        <li> Select the HZ printer to print your document</li>
-                        <br>
-                        Once the print job has been requested you must login using your HZ pass on the RFID reader next
-                        to the printer. Next, select the printer option Print / Afdrukken. In the menu, select the
-                        printer to where the job has been sent. Next, you can see which printer job is ready to be
-                        printed. The print job is completed provided there is sufficient credit on your printing
-                        account. When the printing is completed, press Stop on the RFID reader, followed by Logout.
+                        <li>Vul je HZ gebruikersnaam en wachtwoord in.</li>
+                        <li>Klik op volgende. Als je meer documenten toe wil voegen herhaal je de vorige stap.</li>
+                        <li>Wacht tot het document verwerkt is en klik op the geavanceerd knop om aan te geven of je
+                            enkelzijdig of dubbelzijdig wil printen en of je in kleur of in zwart-wit wil printen.</li>
+                        <li>Selecteer de HZ printer die je wil gebruiken om te printen.</li>
                     </ul>
                 </li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <br>
+                <li>
+                    <ul>
+                        <li>Zorg ervoor dat je ten minste 0,07 euro op je acount heb staan ook al is inscannen gratis.
+                        </li>
+                        <li>Registreer door middel van je HZ pass op de RFID kaart lezer naast de printer. </li>
+                        <li>Op het printer scherm klik je op de optie scan.</li>
+                        <li>Leg het originele papier op het inscan scherm.</li>
+                        <li>klik op scan en verstuur.</li>
+                        <li>klik op scan naar mij.</li>
+                        <li>Klik op ja.</li>
+                        <li>klik op de start knop.</li>
+                        <li>Druk op de groene knop op de printer en scan de pagina's een voor een. Als dat gedaan is
+                            klik op versturen.</li>
+                    </ul>
+                </li>
+                <br>
+                <li>
+                    <ul>
+                        <li>Contacteer de docenten/helpdesk op school en blijf thuis. Volg de lessen online om geen
+                            achterstand op te bouwen.</li>
+                    </ul>
+                </li>
+                <br>
+
+                <li>
+                    <ul>
+                        <li>Ga naar deze link <a
+                                href="https://hzuniversity.topdesk.net/tas/public/ssp/content/page/locationreservationplanner?from=f56d5230-ffe5-4ab7-ad47-ec9374b5ec34%22%3E">
+                                hzuniversity.topdesk.net</a></li>
+                        <li>Klik op "maak een reservering" om alle beschikbare kamers te zien.</li>
+                        <li>Selecteer de gewenste kamer.</li>
+                        <li>Vul de benodigde informatie in.</li>
+                        <li>Bevestig de reservering.</li>
+                    </ul>
+                </li>
+                <br>
+
+                <li>
+                    <ul>
+                        <li>Zorg dat je een HZ studentenpas bezit en ga naar de pakeerplaats op het volgende
+                            adres:<strong>
+                                Poelendaelesingel, 4335 JA Middelburg</strong>. Hier kan je de HZ studentenpas tegen de
+                            RDIF lezer
+                            houden en dan zal de slagboom omhoog gaan zodat u kunt parkeren.</li>
+                    </ul>
+                </li>
             </ol>
         </div>
 </body>

@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html>
 <style>
+    body {
+        background-image: url(/img/background_foto_11.jpg);
+        background-size: 100%;
+    }
+
     .navbar {
         list-style-type: none;
         margin: 0;
         padding: 0;
         overflow: hidden;
         background: linear-gradient(90deg, lightblue, pink);
-        border: black solid;
+        box-shadow: 2px 2px 10px rgb(0, 0, 0);
     }
 
     .navbar li {
@@ -35,10 +40,51 @@
         width: 100%;
         left: 0px;
     }
+
     h1 {
-        margin-top: 100px;
+        margin-top: 5%;
+        text-shadow: 2px 2px 10px rgb(255, 255, 255);
+    }
+
+    .studiekeuze {
+        background-color: lightgray;
+        margin-right: 60%;
+        padding: 4px;
+        box-shadow: 2px 2px 10px rgb(0, 0, 0);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .studiekeuze-tekst {
+        background-color: rgb(255, 255, 255);
+        padding: 30px;
+    }
+
+    .swot {
+        background-color: lightgray;
+        margin-right: 60%;
+        padding: 4px;
+        box-shadow: 2px 2px 10px rgb(0, 0, 0);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-top: 5%;
+    }
+    .swot-tekst {
+        background-color: rgb(255, 255, 255);
+        padding: 30px;
+    }
+    .programmeren-ervaring {
+        background-color: lightgray;
+        margin-right: 60%;
+        padding: 4px;
+        box-shadow: 2px 2px 10px rgb(0, 0, 0);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-top: 5%;
+    }
+.programmeren-ervaring-tekst {
+    background-color: rgb(255, 255, 255);
+        padding: 30px;
     }
 </style>
+
 <head>
     <title> blog</title>
 </head>
@@ -51,13 +97,32 @@
                 <li> <a href="http://localhost/profile.html"> Profile</a> </li>
                 <li><a href="http://localhost/dashboard.html"> Dashboard</a></li>
                 <li> <a href="http://localhost/faq.html"> FAQ</a></li>
-                <li><a href="http://localhost/postfeed.html"> Postfeed</a></li>
+                <li><a href="http://localhost/postfeed.html"> Blog</a></li>
             </ul>
         </nav>
     </div>
-   <p>
     <h1> Blog</h1>
-    </p>
+    <div class="studiekeuze">
+        <h2>Studiekeuze</h2>
+        <p class="studiekeuze-tekst">
+            Ik heb zin om deze opleiding te doen het lijkt mij erg leuk en ik wil graag leren over programmeren. Ik wil
+            namelijk graag als software programmeur werken als ik klaar ben met deze opleiding. Aangezien ik nog niks
+            weet over iets van programmeren hoop ik het hier te kunnen leren.
+        </p>
+    </div>
+    <div class="swot">
+        <h3> SWOT analyse</h3>
+        <p class="swot-tekst">
+            Werk graag samen, ik sta altijd open voor ideeen. Alleen cijfer ik mezelf soms te makkelijk weg. Samenwerken
+            gaat waarschijnlijk goed, maar ik zal niet de leiding pakken want ik ben geen leidend type.
+        </p>
+    </div>
+    <div class="programmeren-ervaring">
+        <h4> Programmeren ervaring</h4>
+        <p class="programmeren-ervaring-tekst">
+            Ik heb totaal geen ervaring met programmeren, het lijkt mij wel erg leuk dus ik heb zin om het te gaan leren.
+        </p>
+    </div>
 </body>
 
 </html>
