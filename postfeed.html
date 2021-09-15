@@ -1,16 +1,62 @@
 <!DOCTYPE html>
 <html>
+<style>
+    .navbar {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background: linear-gradient(90deg, lightblue, pink);
+        border: black solid;
+    }
 
+    .navbar li {
+        float: left;
+        font-family: 'Lobster', cursive;
+    }
+
+    .navbar li a {
+        display: block;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        float: left;
+
+    }
+
+    .navbar li a:hover {
+        background-color: rgb(255, 255, 255);
+    }
+
+    .sticky {
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        left: 0px;
+    }
+    h1 {
+        margin-top: 100px;
+    }
+</style>
 <head>
-    <title> postfeed</title>
+    <title> blog</title>
 </head>
 
 <body>
-    <p>
-    <nav>
-        <a href="http://localhost/"> home</a>
-    </nav>
-    <h1> postfeed</h1>
+    <div>
+        <nav>
+            <ul class="navbar sticky">
+                <li> <a href="http://localhost/">Home</a></li>
+                <li> <a href="http://localhost/profile.html"> Profile</a> </li>
+                <li><a href="http://localhost/dashboard.html"> Dashboard</a></li>
+                <li> <a href="http://localhost/faq.html"> FAQ</a></li>
+                <li><a href="http://localhost/postfeed.html"> Postfeed</a></li>
+            </ul>
+        </nav>
+    </div>
+   <p>
+    <h1> Blog</h1>
     </p>
 </body>
 

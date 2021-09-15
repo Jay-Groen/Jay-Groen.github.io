@@ -1,28 +1,35 @@
 <!DOCTYPE html>
 <html>
 <style>
-    ul.bg-black {
+    body {
+        background-color: gold;
+    }
+    .navbar {
         list-style-type: none;
         margin: 0;
         padding: 0;
         overflow: hidden;
-        background-color: rgba(0, 0, 0, 0.836);
+        background: linear-gradient(90deg, lightblue, pink);
+        border: black solid;
     }
 
-    ul.bg-black>li {
+    .navbar li {
         float: left;
+        font-family: 'Lobster', cursive;
     }
 
-    li a {
+    .navbar li a {
         display: block;
-        color: white;
+        color: rgb(0, 0, 0);
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
+        float: left;
+
     }
 
-    li a:hover {
-        background-color: rgb(131, 131, 131);
+    .navbar li a:hover {
+        background-color: rgb(255, 255, 255);
     }
 
     .sticky {
@@ -32,9 +39,26 @@
         left: 0px;
     }
 
-    .main {
-        padding-top: 50px;
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 80%;
+        border: 2px solid black;
+        margin-top: 60px;
+        background-color: white;
     }
+
+    td,
+    th {
+        border: 1px solid rgb(0, 0, 0);
+        text-align: left;
+        padding: 8px;
+    }
+
+    tr:nth-child(even) {
+        background-color: lightgray;
+    }
+
 </style>
 
 <head>
@@ -45,12 +69,12 @@
 
     <div>
         <nav>
-            <ul class="sticky bg-black">
-                <li> </li>
-                <li> </li>
-                <li></li>
-                <li></li>
-                <li></li>
+            <ul class="navbar sticky">
+                <li> <a href="http://localhost/">Home</a></li>
+                <li> <a href="http://localhost/profile.html"> Profile</a> </li>
+                <li><a href="http://localhost/dashboard.html"> Dashboard</a></li>
+                <li> <a href="http://localhost/faq.html"> FAQ</a></li>
+                <li><a href="http://localhost/postfeed.html"> Postfeed</a></li>
             </ul>
         </nav>
     </div>
@@ -60,7 +84,7 @@
             .
         </p>
         <div>
-            <table border="">
+            <table>
                 <tr>
                     <th>Quartile</th>
                     <th>Course</th>
@@ -105,7 +129,7 @@
                     <td>0</td>
                 </tr>
                 <tr>
-                    <td rowspan="3">FRamework Porject 1</td>
+                    <td rowspan="3">Framework Project 1</td>
                     <td rowspan="3">7,5</td>
                     <td>project</td>
                     <td>0</td>
@@ -135,6 +159,7 @@
             </table>
         </div>
     </main>
+
 </body>
 
 </html>
