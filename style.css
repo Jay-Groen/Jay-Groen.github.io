@@ -1,0 +1,64 @@
+.hz-image {
+    float: right;
+    border-radius: 180px;
+    width: 20%;
+    min-width: 150px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0);
+    margin-top: 10%;
+
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: linear-gradient(90deg, lightblue, pink);
+    box-shadow: 2px 2px 10px rgb(0, 0, 0);
+}
+
+.navbar li {
+    float: left;
+    font-family: 'Lobster', cursive;
+}
+
+.navbar li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+
+}
+
+.navbar li a:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.sticky {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    left: 0px;
+}
+
+#home-page {
+    box-shadow: 2px 2px 10px rgb(0, 0, 0);
+    float: left;
+    width: 50%;
+    margin-left: 10%;
+    min-width: 200px;
+    background: linear-gradient(125deg, pink, lightblue);
+    padding: 10px;
+    margin-top: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.student {
+    color: rgba(255, 255, 255, 0.918);
+    font-family: monospace;
+    font-size: 25px;
+    margin-left: 10%;
+    text-shadow: 2px 2px 10px rgb(0, 0, 0);
+}
