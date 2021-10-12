@@ -115,7 +115,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.studiekeuze-tekst {
+.studiekeuze p  {
     padding: 30px;
     line-height: 1.5em;
     font-size: 20px;
@@ -130,23 +130,33 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.swot-tekst {
+.swot p  {
     padding: 30px;
     line-height: 1.5em;
     font-size: 20px;
 }
 
 .programmeren-ervaring {
-    margin-left: 13%;
-    margin-right: 30%;
-    margin-top: 5%;
+    margin: 5% 30% 0% 13%;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgb(146, 146, 146);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.programmeren-ervaring p  {
+    padding: 30px;
+    line-height: 1.5em;
+    font-size: 20px;
+}
+
+.eerste-feedback {
     margin: 5% 30% 10% 13%;
     padding: 20px;
     box-shadow: 0px 0px 10px rgb(146, 146, 146);
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.programmeren-ervaring-tekst {
+.eerste-feedback p  {
     padding: 30px;
     line-height: 1.5em;
     font-size: 20px;
@@ -162,6 +172,9 @@ body {
     font-size: 20px;
 }
 
+.eerste-feedback h5 {
+    font-size: 20px;
+}
 
 
 /*profile page*/
@@ -375,3 +388,5 @@ th {
     font-size: 16px; 
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/*studiekeuze blog page*/
